@@ -25,4 +25,4 @@ npm run serve
 
 ### Repository
 - **Vue-i18n**
-> Vue internallization. How to use multi language on vue web app
+> Vue internallization. How to use multi language on vue web app, [setup](./vue-i18n/README.md)

@@ -3,18 +3,12 @@
   <select v-model="$i18n.locale">
     <option v-for="l in $i18n.availableLocales" :key="`local-${l}`" :value=l>{{ l }}</option>
   </select>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 

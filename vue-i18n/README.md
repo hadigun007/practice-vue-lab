@@ -1,11 +1,11 @@
-![](../hadi.png)
+![](../assets/hadi.png)
 # vue-i18n
 
 ###### [practice-vue-lab](../README.md) ＞ vue-i18n
 ---
 ## Setup
 
-1. **Install Packages**
+1. **Install Package**
     ``` sh
     npm install vue-i18n@9 && mkdir src/locales
     ```

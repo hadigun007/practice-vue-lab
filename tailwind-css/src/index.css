@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    background-color: black;
+
+/* https://colorhunt.co/palette/404258474e6850577a6b728e */
+
+@layer components {
+    .title {
+     @apply text-2xl py-2 border-b border-b-[#6B728E]
+    }
+    .title2 {
+     @apply text-lg my-2
+    }
+    .title1 {
+     @apply text-sm    
+    }
+    .group {
+        @apply p-4 border border-[#6B728E] rounded-md my-4
+    }
 }

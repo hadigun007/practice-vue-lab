@@ -1,33 +1,16 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import { createI18n } from 'vue-i18n'
+import router from './router'
+import store from './store'
 import './index.css'
 
 
 
 const app = createApp(App)
 
-const i18n = createI18n({
-    locale : "id",
-    messages : {
-        en: {
-          message: {
-            the_world: 'the worldss',
-            dio: 'DIO:',
-            linked: '@:message.dio @:message.the_world !!!!'
-          }
-        },
-        id: {
-          message: {
-            the_world: 'Dunia',
-            dio: 'DIO:',
-            linked: '@:message.dio @:message.the_world !!!!'
-          }
-        }
-      }
-})
-  
-app.use(i18n)
+
+app.use(router)
+app.use(store)
 
 
 .mount('#app')
